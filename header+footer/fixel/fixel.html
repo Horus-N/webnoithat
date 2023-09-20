@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="/Thuctap/header+footer/icon/fontawesome-free-6.4.0-web/css/all.css">
+    <style>
+        :root {
+    --color--main--: #22419a;
+    --color--hover--: #FFF201;
+    --color--white--: #fff;
+}
+        #fixel {
+    bottom: 10px;
+    right: 10px;
+    position: fixed;
+    display: flex;
+}
+
+#fixel .fixel__icon--mes {
+    width: 60px;
+    height: 60px;
+    border-radius: 40px;
+    overflow: hidden;
+}
+
+.fixel__icon--mes img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.fixel__container button {
+    width: 30px;
+    height: 30px;
+    margin-left: 10px;
+    margin: 15px 10px;
+}
+
+.fixel__container .fixel__text--phone {
+    margin-top: 50px;
+    margin-right: 10px;
+    padding: 20px;
+    border-radius: 30px;
+    background-color: var(--color--main--);
+    color: var(--color--hover--);
+    font-size: 20px;
+    font-weight: bold;
+}
+    </style>
+</head>
+<body>
+    <div id="fixel">
+        <div class="fixel__container">
+            <div class="fixel__text--phone"><span>Hotline: 0906264268</span></div>
+        </div>
+        <div class="fixel__container">
+            <a href="">
+                <div class="fixel__icon--mes"><img src="img__mes.png" alt=""></div>
+            </a>
+            <a href="#header-top"><button class=""><i class="fa-solid fa-arrow-up"></i></button></a>
+        </div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,310 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+ul,
+li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: #000;
+}
+
+.blog {
+    font-weight: bold;
+}
+
+.chien {
+    width: 100%;
+    margin: 0 auto 100px auto;
+
+}
+
+.Trangchu {
+    width: 80%;
+    margin: 50px auto 30px auto;
+}
+
+.Trangchu ul {
+    display: flex;
+    font-size: 14px;
+}
+
+
+.cot1 {
+    width: 30%;
+    margin-right: 20px;
+}
+.nav__1{
+    margin-bottom: 20px;
+}
+.nav__1 li:hover a {
+    text-decoration: underline;
+}
+
+.cot2 {
+    width: 70%;
+}
+
+.content {
+    display: flex;
+    width: 80%;
+    margin: 0 auto;
+}
+
+.cot1 ul {
+    font-size: 24px;
+}
+
+.cot1 ul li {
+    font-size: 25px;
+}
+
+.sp1 img {
+    width: 100px;
+    height: 100px;
+}
+
+.sp1 {
+    display: flex;
+}
+
+.sp1 ul li {
+    font-size: 28px;
+}
+
+.cot1 li {
+    padding: 5px 0;
+    font-size: 16px !important;
+    margin-left: 20px;
+}
+
+hr {
+    margin: 20px 0;
+}
+
+.cot2 ul {
+    font-size: 24px;
+}
+
+.sale {
+    background-color: blue;
+    width: 60px;
+    height: 60px;
+    position: absolute;
+    top:0px;
+    left: 0px;
+    color: white;
+    font-size: 23px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.blog1 {
+    position: relative;
+}
+.blog1 ul li a{
+    font-size: 18px  !important;
+    font-weight: bold;
+
+}
+.blog1 ul li{
+    font-size: 15px ;
+    opacity: 0.7;
+    margin: 5px 0;
+}
+.blog1 ul img {
+    width: 350px;
+    height: 250px;
+    margin-bottom: 30px;
+    position: relative;
+    margin-right: 20px;
+}
+
+.blog1 {
+    display: flex;
+}
+
+.doctiep {
+    border: 1px solid blue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px !important;
+    width: 120px;
+    padding:8px 0;
+    text-align: center;
+}
+.doctiep:hover{
+    background-color: rgb(47, 47, 246);
+}
+.doctiep:hover a{
+    color: #fff;
+}
+
+.chu {
+    font-size: 20px;
+}
+
+.stt {
+    display: flex;
+    margin-bottom: 30px;
+}
+
+.stt li {
+    border: 1px solid blue;
+    width: 35px;
+    height: 40px;
+}
+.stt li a{
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.stt li:hover a{
+    background-color: #ccc;
+}
+.thietke img {
+    width: 1000px;
+}
+
+.quantam {
+    display: flex;
+}
+
+.quantam1 {
+    width: 33.333%;
+    height: 300px;
+    margin: 0 10px ;
+}
+
+.quantam1 ul img {
+    width: 100%;
+    height: 100%;
+}
+
+.cuoi {
+    display: flex;
+}
+
+.cuoi ul {
+    margin-top: 10px;
+    margin-left: 10px;
+    font-size: 16px;
+}
+.check{
+    width: 80%;
+    margin: 0 auto;
+}
+.check h1{
+    font-size: 24px;
+    margin: 20px 0 0 0;
+    text-transform: uppercase;
+    font-weight: 400;
+}
+.sale__1{
+    background-color: blue;
+    font-size: 14px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   width: 60px ;
+   height: 60px;
+   color: #fff;
+}
+#fixel {
+    bottom: 10px;
+    right: 10px;
+    position: fixed;
+    display: flex;
+}
+
+#fixel .fixel__icon--mes {
+    width: 60px;
+    height: 60px;
+    border-radius: 40px;
+    overflow: hidden;
+}
+
+.fixel__icon--mes img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.fixel__container button {
+    width: 30px;
+    height: 30px;
+    margin-left: 10px;
+    margin: 15px 10px;
+}
+
+.fixel__container .fixel__text--phone {
+    margin-top: 50px;
+    margin-right: 10px;
+    padding: 20px;
+    border-radius: 30px;
+    background-color: var(--color--main--);
+    color: var(--color--hover--);
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.fixel__container .fixel__text--phone span {}
+
+@media (max-width: 64em)and (min-width: 48.75em){
+    .content{
+        width: 90%;
+    }
+    .check{
+        width: 90%;
+    }
+}
+
+@media (max-width: 48.75em){
+    .content{
+        width: 95%;
+        flex-direction: column;
+    }
+
+    .cot1{
+        width: 100%;
+        margin-bottom: 30px;
+    }
+    .cot2{
+        width: 100%;
+    }
+    
+    .blog1{
+        flex-direction: column;
+    }
+
+    .blog1 ul a{
+    width: 100%; 
+    }
+
+    .blog1 ul img{
+        width: 100%;
+        height: auto;
+    }
+
+    .check{
+        width: 95%;
+    }
+}
+
+@media (max-width: 46.25em){
+    .quantam {
+        flex-direction: column;
+    }
+
+    .quantam1{
+        height: auto;
+        width: 100%;
+        margin-bottom: 20px;
+    }
+}

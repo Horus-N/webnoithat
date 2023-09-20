@@ -1,0 +1,241 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif ;
+}
+
+:root {
+    --color--main--: #22419a;
+    --color--hover--: #FFF201;
+    --color--white--: #fff;
+}
+
+/* header-top */
+
+#header-top {
+    width: 100%;
+    height: 155px;
+    z-index: 1;
+    max-width: 100%;
+}
+
+.header {
+    margin: 0 auto;
+    width: 80%;
+    height: 125px;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.fixel__phone p{
+    margin-left: 30px;
+}
+.fixel__phone span{
+    font-weight: 900;
+}
+.header__img-logo {
+    flex: 1;
+    animation: row ease-in-out 0.5s;
+    display: flex;
+    justify-content: center;
+}
+.header__search--container{
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.header__search{
+    flex: 9;
+    height: 36px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    animation: column ease-in-out 0.5s;
+}
+
+.header__search input {
+    height: 100%;
+    flex: 8;
+    box-shadow: 0 0 7px -2px inset;
+    border: none;
+    padding-left: 20px;
+    outline: none;
+}
+
+.header__search button {
+    flex: 1;
+    height: 100%;
+    background-color: var(--color--main--);
+    border: none;
+}
+
+.header__search button i {
+    color: var(--color--hover--);
+}
+
+.header__search button:hover i {
+    cursor: pointer;
+    color: #000;
+}
+
+.header__phone {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    animation: column ease-in-out 0.5s;
+    margin-top: 10px;
+}
+
+.header__phone i {
+    font-size: 35px;
+    color: var(--color--main--);
+    margin-right: 10px;
+}
+
+.header__phone-text a {
+    font-size: 21px;
+    text-decoration: none;
+    font-weight: bold;
+    color: #000;
+}
+
+.header__phone-text span {
+    font-size: 13px;
+    font-weight: 100;
+}
+
+.header__img {
+    flex: 1;
+    width: 100%;
+    max-width: 306px;
+    height: 106px;
+    animation: row2 ease-in-out 0.5s;
+    margin-top: 10px;
+}
+
+.header__img img {
+    max-width: 100%;
+    max-height: 100%;
+    object-fit: cover;
+}
+.mobile__menu{
+    display: none;
+    font-size: 60px;
+    background-color: #21408a;
+    flex: 1;
+    margin-right: 10px;
+    margin-left: -20px;
+}
+
+/* subheader */
+.subheader {
+    width: 100%;
+    height: 30px;
+    background-color: var(--color--main--);
+    display: flex;
+    align-items: center;
+    position: sticky;
+    position: -webkit-sticky;
+    top: 0px;
+    z-index: 1;
+}
+
+.subheader>.nav {
+    margin: 0 auto;
+    max-width: 90%;
+    width: 1270px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+}
+
+.subheader>.nav>li {
+    font-weight: bold;
+    padding: 4px 20px;
+    display: block;
+    position: relative;
+    font-size: 14px;
+}
+
+.subheader>.nav>li>a {
+    color: #fff;
+    text-transform: uppercase;
+    text-decoration: none;
+    display: block;
+
+}
+
+.subheader>.nav>li>a>i {
+    margin-left: 7px;
+}
+
+li+li {
+    border-left: 2px solid var(--color--white--);
+}
+
+.subheader>.nav>li:hover>a {
+    color: var(--color--hover--);
+}
+
+.subheader .nav a::after {
+    position: absolute;
+    content: "";
+    height: 3px;
+    width: 0;
+    background: var(--color--hover--);
+    left: 50%;
+    bottom: 0px;
+    transform: translate(-50%, 0);
+    transition: all 0.5s ease-in-out;
+}
+
+.subheader>.nav>li>a:hover::after {
+    width: 100%;
+    /* left: 0; */
+}
+
+.nav .subnav {
+    list-style: none;
+    margin-top: 6px;
+    width: 270px;
+    display: none;
+    position: absolute;
+    border: 1px solid #cdcbcb;
+    background-color: var(--color--white--);
+
+}
+
+.subnav>li {
+    font-size: 13px;
+    padding: 10px;
+    border-bottom: 1px solid #cdcbcb;
+}
+
+.subnav>li>a {
+    text-transform: capitalize;
+    font-weight: 100;
+    color: #000;
+    text-decoration: none;
+    font-size: 17px !important;
+    opacity: 0.8;
+}
+
+.subheader>.nav>li:hover>.subnav {
+    display: block;
+    z-index: 1;
+}
+
+.subnav>li:hover a {
+    border-bottom: 1px solid;
+}
+
+.subnav>li>i {
+    font-size: 7px;
+    margin-right: 10px;
+}
+

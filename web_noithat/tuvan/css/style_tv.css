@@ -1,0 +1,572 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html{
+    scroll-behavior: smooth;
+    font-family: 'Lato','sans-serif';
+}
+/* Phần về Tư vấn  */
+#_layout_form_top {
+    background-image: url(../img/bgtuvan_top.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    width: 100%;
+    padding-top: 45%;
+    position: relative;
+}
+
+#_layout_form_top .container {
+    margin: 0 10%;
+    padding: 0 15px;
+}
+
+#_layout_form_top .container ._formtop_ct {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: 0 8.5%;
+    padding: 120px 15px;
+
+}
+
+#_layout_form_top .logo {
+    position: absolute;
+    top: 22px;
+    left: 77px;
+}
+
+.container ._formtop_ct .text-ft {
+    padding: 120px 0 0 50px;
+    font-family: 'Lato', sans-serif;
+    color: #fff;
+    float: left;
+    width: 60%;
+    text-transform: uppercase;
+
+}
+
+._formtop_ct .text-ft h1 {
+    font-size: 47px;
+    margin: 0 0 10px 0;
+
+    line-height: 1;
+}
+
+._formtop_ct .text-ft .free {
+    font-size: 33px;
+    margin: 0 0 10px 4px;
+}
+
+._formtop_ct .text-ft .khhl {
+    font-size: 30px;
+
+}
+
+._formtop_ct ._form-tv {
+    float: left;
+    width: 40%;
+}
+
+._formtop_ct ._form-tv .bg_form {
+    background: #1b284e96;
+    width: 400px;
+    padding: 40px 20px 25px;
+    text-align: center;
+    border-radius: 20px;
+
+}
+
+._form-tv .bg_form h2 {
+    color: #ffffff;
+    font-size: 27px;
+    font-weight: 900;
+    text-transform: uppercase;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+._form-tv .bg_form input {
+    height: 48px;
+    background: #ffffff;
+    border: 1px solid;
+    padding: 0 5px 0 18px;
+    width: 100%;
+  
+    margin-bottom: 16px;
+    outline: none;
+}
+._form-tv .bg_form input::placeholder{
+    font-weight: 700;
+    opacity: 1;
+    font-size: 16px;
+    color: #525252;
+}
+
+._form-tv .bg_form button {
+    background: #fff200;
+    font-family: latobl;
+    font-size: 21.7px;
+    text-transform: uppercase;
+    border: initial;
+    padding: 8px 15px;
+    border-radius: 12px;
+    margin-top: 10px;
+    transition: all 0.3s ease-in-out;
+}
+
+._form-tv .bg_form button:hover {
+    transform: scale(1.1);
+    cursor: pointer;
+}
+
+/* Phần Về chúng tôi */
+@keyframes runin {
+    from{
+        transform: translateY(50%);
+        opacity: 0;
+    }
+    to{
+        transform: translateY(0);
+        opacity: 1;
+    }
+}
+#_layout_form_vct {
+    background: #484848;
+    padding: 70px 0 60px;
+}
+
+#_layout_form_vct .container {
+    margin: 0 6%;
+    padding: 0 15px;
+}
+
+.form_vct {
+    display: table;
+    width: 100%;
+}
+
+#_layout_form_vct .container .logo {
+    text-align: center;
+    margin-bottom: 60px;
+}
+
+#_layout_form_vct .container .text-vct {
+    float: left;
+    width: 50%;
+    padding-left: 50px;
+    color: #fff;
+    position: relative;
+    animation: runin 0.7s ease-in 1;
+}
+
+.text-vct::before {
+
+    background: url("../img/about-us.png") no-repeat;
+    background-size: 100% 100%;
+    width: 312px;
+    height: 47px;
+    content: '';
+    position: absolute;
+    left: -15px;
+    top: -27px;
+}
+
+#_layout_form_vct .container .text-vct h2 {
+    font-size: 32px;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+    font-family: latobl;
+    position: relative;
+}
+
+#_layout_form_vct .container .text-vct p {
+    width: 85%;
+    font-size: 18px;
+    line-height: 1.6;
+}
+
+#_layout_form_vct .container .list-vct {
+    float: left;
+    width: 50%;
+    animation: runin 0.5s ease-in 1;
+    color: #ffffff;
+    display: grid;
+    grid-template-columns: repeat(2, 50%);
+    margin: 0 -8px;
+}
+
+.container .list-vct .item-vct {
+    background: #3c3b40;
+    margin: 15px 8px;
+    padding: 12px 18px
+}
+
+.container .list-vct .item-vct h3 {
+    font-size: 16px;
+    margin-bottom: 6px;
+}
+
+.container .list-vct .item-vct p {
+    font-size: 14px;
+    line-height: 1.6;
+}
+
+/* phần project */
+#_layout_form_project .bg-project {
+    width: 100%;
+    padding: 230px 0;
+    background-image: url("../img/PKHACH-BEP.jpg");
+    background-size: 100% 100%;
+    position: relative;
+}
+
+#_layout_form_project .form_project {
+    color: #fff;
+    text-transform: uppercase;
+    padding: 0 15px;
+    margin: 0 10%;
+}
+
+#_layout_form_project .form_project h2 {
+    font-size: 32px;
+    margin-bottom: 12px;
+}
+
+
+#_layout_form_project .form_project .nm-proj {
+    font-size: 24px;
+    margin-bottom: 4px;
+
+}
+
+
+#_layout_form_project .form_project .note-proj {
+    font-size: 18.4px;
+    line-height: 1.2;
+    margin-bottom: 20px;
+}
+#_layout_form_project .form_project a {
+    background: #fff200;
+    padding: 8px 14px;
+    color: #000000;
+    font-size: 20px;
+    display: inline-block;
+    text-transform: uppercase;
+    text-decoration: none !important;
+    border-radius: 12px;
+    transition: all 0.3s ease-in;
+}
+#_layout_form_project .form_project .btn-proj:hover {
+    transform: scale(1.1);
+}
+
+#_layout_form_project .container .list-project {
+    color: #fff;
+    position: absolute;
+    margin-top: -14%;
+    width: 80%;
+    margin-left: 19%;
+    z-index: 10;
+}
+
+#_layout_form_project .container .list-project img {
+    width: 100%;
+    height: 100%;
+
+}
+
+#_layout_form_project .container .list-project .image {
+    margin-bottom: 16px;
+    height: 212px;
+    position: relative;
+    overflow: hidden;
+}
+
+.container .list-project .text-image{
+    height: 85px;
+    overflow: hidden;
+}
+.container .list-project .text-image h3 {
+    font-size: 18px;
+    margin-bottom: 8px;
+    line-height: 1;
+}
+
+.container .list-project .text-image p {
+    font-size: 11px;
+    line-height: 1.3;
+    text-transform: uppercase;
+    margin-bottom: 0;
+    max-height: 41px;
+    overflow: hidden;
+    padding-right: 5px;
+}
+
+.slick-initialized .slick-slide {
+    display: block;
+    margin: 0 5px;
+   
+}
+
+
+.slick-prev{
+    width: 36px;
+    height: 36px;
+    background: rgba(108,104,100,0.68);
+    display: block;
+    text-align: center;
+    font-size: 26px;
+    color: #ffffff;
+    position: absolute;
+    top: -50px;
+    left:  calc(50% - 40px);
+    outline: none;
+    border: none;
+    text-decoration: none;
+    color: #ffffff;
+}
+
+.slick-next{
+    width: 36px;
+    height: 36px;
+    background: rgba(108,104,100,0.68);
+    display: block;
+    text-align: center;
+    font-size: 26px;
+    color: #ffffff;
+    position: absolute;
+    top: -50px;
+    right: calc(50% - 40px);
+    outline: none;
+    border: none;
+    text-decoration: none;
+    color: #ffffff;
+}
+#_layout_form_qttk {
+    background: #484848;
+    color: #ffffff;
+    margin-top:-86px ;
+    padding: 280px 0 80px;
+}
+#_layout_form_qttk .container .qttk{
+    position: relative;
+}
+#_layout_form_qttk .container .qttk::before{
+    background: url(../img/design-pr.png) no-repeat;
+    background-size: 100% 100%;
+    width: 480px;
+    height: 40px;
+    content: '';
+    position: absolute;
+    left: calc(((100% - 480px)/2) - 110px);
+    top: -28px;
+}
+
+#_layout_form_qttk .container{
+    padding-right: 15px;
+    padding-left: 15px;
+    margin: 0 10%;
+}
+#_layout_form_qttk .container h2{
+position: relative;
+font-size: 32px;
+color: #ffffff;
+margin-bottom: 25px;
+line-height: 1;
+text-transform: uppercase;
+text-align: center;
+animation: runin 0.5s ease-in 1;
+}
+
+#_layout_form_qttk .container .list-qt{
+
+    display: grid;
+    grid-template-columns: repeat(3, calc(100%/3));
+    margin: 0 -8px 25px;
+}
+
+.container .list-qt .item-qt{
+    display: flex;
+align-items: center;
+height: 88px;
+margin: 22px 8px;
+animation: runin 0.5s ease-in 1;
+}
+.container .list-qt .item-qt .count{
+    font-size: 58px;
+    color: #545357;
+    padding-left: 10px;
+    padding-right: 5px;
+}
+.container .list-qt .item-qt .text-qt{
+    font-size: 16px;
+    text-transform: uppercase;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    background: #3c3b40;
+    border-radius: 0 6px 6px 0;
+    width: 100%;
+    padding: 0 10px 0 20px;
+    text-align: left;
+}
+
+#_layout_form_qttk .container .button-qt {
+    background: #fff200;
+    padding: 8px 14px;
+    color: #000000;
+    font-size: 20px;
+    display: inline-block;
+    text-transform: uppercase;
+    text-decoration: none !important;
+    border-radius: 12px;
+    transition:all 1s linear;
+}
+#_layout_form_qttk .container .button-qt:hover {
+    transform: scale(1.1);
+}
+
+#_layout_form_qttk .container .btn-qt{
+    text-align: center;
+}
+
+
+#_layout_form_review {
+    background: url(../img/bg-review.jpg) no-repeat;
+    background-size: 100% 100%;
+    padding: 70px 0 60px;
+    position: relative;
+
+}
+#_layout_form_review .container{
+    padding-right: 15px;
+    padding-left: 15px;
+    margin: 0 10%;
+}
+#_layout_form_review .container .list-rv{
+    display: grid;
+    grid-template-columns: repeat(3, calc(100%/3));
+    margin: 0 -10px
+}
+#_layout_form_review .container .rv-ct h2{
+    font-size: 32px;
+    color: #ffffff;
+    margin-bottom: 30px;
+    line-height: 1;
+    text-transform: uppercase;
+    text-align: center;
+    animation: runin 0.5s ease-in 1;
+}
+
+#_layout_form_review .container .list-rv .item-rv{
+    text-align: right;
+    margin: 0 10px;
+    position: relative;
+    animation: runin 0.6s ease-in 1;
+}
+
+.container .list-rv .item-rv .img-rv{
+    padding-left: 60px;
+}
+
+.list-rv .item-rv img{
+ width: 100%;
+}
+
+.list-rv .item-rv .text-rv{
+    color: #ffffff;
+    text-align: left;
+    width: 60%;
+    position: absolute;
+    top: 50px;
+    left: 15px;
+}
+
+.item-rv .text-rv span{
+font-size: 42px;
+font-family: latobl;
+color: #515054;
+line-height: 1;
+margin-bottom: 10px;
+display: block;
+}
+
+.item-rv .text-rv h3{
+font-size: 18px;
+font-style: italic;
+text-transform: uppercase;
+margin-bottom: 18px;
+}
+
+.item-rv .text-rv p{
+    margin-bottom: 0;
+font-size: 12px;
+}
+
+
+
+
+#footer {
+    background: #494949;
+}
+
+#footer .container{
+    margin: 0 10%;
+    padding: 30px 15px;
+    display: grid;
+    grid-template-columns: repeat(2, 50%);
+}
+
+#footer .container .logo-ft{
+text-align: center;
+}
+
+#footer .container .logo-ft a{
+    color: #007bff;
+text-decoration: none;
+background-color: transparent;
+}
+.container .logo-ft a img{
+    max-width: 100%;
+    object-fit: cover;
+}
+
+#footer .container .text-ft{
+    color: #ffffff;
+    text-transform: uppercase;
+}
+
+.container .text-ft h3{
+    font-size: 16px;
+line-height: 1;
+margin-bottom: 5px;
+}
+
+.container .text-ft p{
+margin-bottom: 5px;
+line-height: 1.2;
+font-size: 16px;
+}
+
+.container .text-ft p a{
+    color: #ffffff;
+    font-size: 12px;
+    text-decoration: none;
+    transition: .2s linear;
+}
+.container .text-ft p a:hover{
+opacity: 0.7;
+}
+
+.container .text-ft p span{
+    font-size: 12px;
+}
+
+
+
+
+

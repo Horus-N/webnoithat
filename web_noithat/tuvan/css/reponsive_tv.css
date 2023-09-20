@@ -1,0 +1,348 @@
+@media (min-width: 910px) and (max-width:1055px){
+    #_layout_form_top .container ._formtop_ct {
+        margin: 0 5%;
+    }
+    .container ._formtop_ct .text-ft {
+        padding: 50px 0 0 0px;
+     
+    }
+    ._formtop_ct ._form-tv .bg_form {
+        width: 350px;
+        padding: 40px 20px 25px;
+        text-align: center;
+        margin-top: -50px;
+    }
+
+    #_layout_form_qttk {
+        margin-top: -46px;
+    }
+
+    .list-rv .item-rv .text-rv{
+        width: 70%;
+        top: 40px;
+    }
+
+    #footer .container{
+        display: flex;
+        max-width: 0 5%;
+    }
+
+    #footer .container .logo-ft{
+        width: 30%;
+    }
+
+    #footer .container .text-ft{
+        width: 70%;
+    }
+}
+
+@media (min-width: 740px) and (max-width:909px){
+    #_layout_form_top{
+        padding-top: 55%;
+    }
+    #_layout_form_top .container ._formtop_ct {
+        margin:0 5%;
+    }
+
+    .container ._formtop_ct .text-ft {
+        padding: 40px 0 0 0px;
+    }
+
+    ._formtop_ct .text-ft h1 {
+        font-size: 37px;
+    }
+
+    ._formtop_ct .text-ft .free {
+        font-size: 25px;
+    }
+
+    ._formtop_ct .text-ft .khhl {
+        font-size: 20px;
+    }
+
+    ._formtop_ct ._form-tv .bg_form {
+        width: 100%;
+        margin-top: -60px;
+    }
+
+    ._form-tv .bg_form h2 {
+       
+        font-size: 20px;
+        font-weight: 700;
+    }
+    
+    ._form-tv .bg_form button {
+        font-size: 16px;
+    }
+
+    /* về vct */
+    #_layout_form_vct .container .logo {
+        margin-bottom: 50px;
+    }
+    #_layout_form_vct .container .text-vct {
+        width: 45%;
+        padding-left: 10px;
+    }
+    #_layout_form_vct .container .list-vct {
+        width: 55%;
+    }
+    .container .list-vct .item-vct {
+        margin: 5px 5px; 
+    }
+
+    /* chung */
+    #_layout_form_project .form_project,
+    #_layout_form_review .container,
+    #_layout_form_qttk .container{
+        margin: 0 5%;
+    }
+
+    /* Về project */
+    #_layout_form_project .bg-project {
+        padding: 170px 0;
+    }
+
+    #_layout_form_project .form_project .note-proj {
+        font-size: 16px;
+        line-height: 1.2;
+        margin-bottom: 10px;
+    }
+
+    #_layout_form_project .form_project a {
+        font-size: 16px;
+    }
+    /* về qttk */
+    #_layout_form_qttk {
+        margin-top: 0;
+    }
+    #_layout_form_qttk .container h2{
+        font-size: 27px;
+    }
+    #_layout_form_qttk .container .list-qt {
+        display: grid;
+        grid-template-columns: repeat(2, calc(100%/2));
+        margin: 0 -8px 15px;
+    }
+
+    #_layout_form_qttk .container .button-qt{
+        font-size: 18px;
+    }
+    .container .list-rv .item-rv .img-rv {
+        padding-left: 15%;
+    }
+
+    .list-rv .item-rv .text-rv{
+        width: 70%;
+        top:20px;
+    }
+
+    .item-rv .text-rv h3{
+        font-size: 16px;
+    }
+    .item-rv .text-rv p{
+        font-size: 13px;
+    }
+
+    #footer .container{
+        display: flex;
+        margin: 0 5%;
+    }
+
+    #footer .container .logo-ft{
+        width: 30%;
+    }
+
+    #footer .container .text-ft{
+        width: 70%;
+    }
+
+}
+
+@media (max-width:739px){
+    /* Phần tv-top */
+#_layout_form_top {
+    background-size: cover;
+    background-position: center;
+    padding-top: 0;
+}
+
+#_layout_form_top .logo{
+    position: relative;
+    left: 0;
+}
+
+#_layout_form_top .container {
+    margin: 0 5%;
+    padding: 0 15px;
+}
+
+#_layout_form_top .container ._formtop_ct {
+    position: relative;
+    padding: 0px 15px 50px;
+}
+
+.container ._formtop_ct .text-ft {
+    padding: 40px 0 30px;
+    text-align: center;
+    width: 100%;
+    float: none;
+}
+
+._formtop_ct .text-ft h1{
+    font-size: 37px;
+}
+
+._formtop_ct .text-ft .khhl,
+._formtop_ct .text-ft .free{
+    font-size: 25px;
+}
+
+._formtop_ct ._form-tv .bg_form,
+._formtop_ct ._form-tv {
+    float: none;
+    width: 100%;
+}
+#_layout_form_project .form_project,
+#_layout_form_vct .container{
+    margin: 0;
+    padding: 0 15px;
+}
+
+/* phần về chúng tôi */
+#_layout_form_vct .container .text-vct {
+    float: none;
+    width: 100%;
+}
+#_layout_form_vct .container .list-vct {
+    width: 100%;
+    animation: runin 0.5s ease-in 1;
+    float: none;
+    margin: 10px 0 0 0;
+}
+
+.text-vct::before{
+    width: 280px;
+height: 41px;
+left: -10px;
+}
+
+/* phần project */
+#_layout_form_project .bg-project{
+    padding: 50px 0 150px 0;
+}
+
+#_layout_form_project .form_project h2{
+    font-size: 32px;
+}
+#_layout_form_project .form_project a,
+#_layout_form_project .form_project .note-proj{
+    font-size: 16px;
+}
+
+.container .list-project .text-image p {
+line-height: 1.8;
+}
+/* phần kttk */
+
+#_layout_form_qttk{
+    margin: 0;
+}
+
+#_layout_form_review .container,
+#_layout_form_qttk .container{
+    margin: 0 5%;
+}
+#_layout_form_qttk .container h2{
+    font-size: 26px;
+}
+#_layout_form_qttk .container .list-qt {
+    grid-template-columns: repeat(2, calc(100%/2));
+}
+
+.container .list-qt .item-qt {
+    height: inherit;
+    margin: 15px 8px;
+}
+.container .list-qt .item-qt .count{
+    font-size: 48px;
+}
+.container .list-qt .item-qt .text-qt{
+    font-size: 13px;
+}
+
+#_layout_form_qttk .container .qttk::before{
+    width: 360px;
+    height: 30px;
+    left: 0;
+    top: -23px;
+}
+/* phần review */
+#_layout_form_review .container .list-rv {
+    display: flex;
+    flex-direction: column;
+    margin: 0 -10px;
+}
+.container .list-rv .item-rv .img-rv {
+    padding: 15px 0 15px 60px;
+    height: 500px;
+}
+
+.list-rv .item-rv img{
+    width: 80%;
+    height: 100%;
+    object-fit: cover;
+}
+.list-rv .item-rv .text-rv{
+    width: 80%;
+    top: 20%;
+}
+
+.item-rv .text-rv span{
+    font-size: 52px;
+}
+
+.item-rv .text-rv h3 {
+font-size: 38px;
+}
+
+.item-rv .text-rv p{
+    font-size: 25px;
+}
+
+/* phần footer */
+#footer .container {
+    margin: 0 5%;
+    padding: 30px 15px;
+    display: flex;
+    flex-direction: column;
+}
+#footer .container .logo-ft {
+    margin-bottom: 20px;
+}
+
+#footer .container .logo-ft a {
+    width: 50%;
+    display: inline-block;
+}
+.container .logo-ft a img {
+    width: 100%;
+    height: 100%;
+    max-width: 100%;
+    object-fit: cover;
+}
+
+.container .text-ft h3{
+    font-size: 20px;
+}
+
+.container .text-ft p{
+    font-size: 18px;
+}
+.container .text-ft p a{
+    font-size: 16px;
+}
+
+.container .text-ft p span{
+    font-size: 15px;
+}
+}
